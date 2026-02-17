@@ -1,0 +1,6 @@
+streamlit
+requests
+pandas
+geopy
+streamlit-folium
+folium
