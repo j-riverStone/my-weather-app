@@ -70,7 +70,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🗺️ AI気象アナリスト：比較機能強化版")
+st.title("Weather Anytime")
 
 with st.sidebar:
     st.header("📅 日付設定")
@@ -159,4 +159,5 @@ if target_lat and target_lon:
         st.line_chart(df_current.set_index("時間")["気温(℃)"])
 else:
     if method == "地図でタップ":
+
         st.warning("地図をクリックして場所を指定してください。")
